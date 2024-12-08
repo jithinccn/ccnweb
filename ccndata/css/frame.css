@@ -1,0 +1,59 @@
+/* Increased the max-width to 900px for both containers */
+div#modemCountContainer {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2px;
+    max-width: 900px; /* Set max-width */
+    width: 100%; /* Increase width */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Text inside the modem count container */
+div#modemCountContainer h2 {
+    color: #333;
+    font-size: 48px;
+    margin: 0;
+}
+
+div#modemCountContainer p {
+    font-size: 24px;
+    color: #007bff;
+    margin: 0 0 0;
+    font-weight: bold;
+}
+
+/* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for table header */
+table th {
+    background-color: #333; /* Dark background for header */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #555; /* Thicker border for visibility */
+}
+
+/* Styling for table cells */
+table td {
+    padding: 10px;
+    border: 2px solid #ddd; /* Thicker border for cell visibility */
+}
+
+/* Alternating row colors for better readability */
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
